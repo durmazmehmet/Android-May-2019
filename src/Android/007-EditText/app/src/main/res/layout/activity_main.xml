@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/mainActivityEditTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Adınızı giriniz" />
+
+    <EditText
+        android:id="@+id/mainActivityEditTextSecondName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Varsa ikinci adınızı giriniz" />
+
+    <EditText
+        android:id="@+id/mainActivityEditTextSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Soyadınızı giriniz" />
+
+    <TextView
+        android:onClick="onFullNameTextViewClicked"
+        android:id="@+id/mainActivityTextViewFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <Button
+        android:onClick="onSaveButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet" />
+
+    <Button
+        android:onClick="onExitButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Çıkış" />
+
+
+</LinearLayout>

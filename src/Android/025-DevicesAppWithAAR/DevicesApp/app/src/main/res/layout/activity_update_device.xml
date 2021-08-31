@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateDeviceActivity">
+
+
+    <TextView
+        android:id="@+id/updateDeviceActivityTextViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/updateDeviceActivityEditTextHost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cihaz IP numarası" />
+
+    <TextView
+        android:id="@+id/updateDeviceActivityTextViewInsertDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/updateDeviceActivityTextViewLastUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="onSaveButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet" />
+
+    <Button
+        android:onClick="onDeleteButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sil" />
+</LinearLayout>

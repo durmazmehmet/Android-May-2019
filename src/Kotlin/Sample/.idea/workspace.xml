@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1d44885-0b16-4574-887b-813d75b7b888" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OSyxsMQRrOXVlqUIg19mxATjdO" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="csd" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.csystem.samples.parserapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CSD\Dropbox\Kurslar\Android-May-2019\src\Kotlin\Sample\out\production\Sample\csd" />
+      <recent name="Z:\Dropbox\Kurslar\Android-May-2019\src\Kotlin\Sample\src\csd" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.org.csystem.app.AppKt">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.csystem.java.App" />
+      <module name="Sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csystem.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.csystem.App" />
+      <module name="Sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Sample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="AppKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="csd.AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Sample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="csd.AppKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.csystem.app.AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Sample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.csystem.app.AppKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.org.csystem.app.AppKt" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Kotlin.csd.AppKt" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Kotlin.AppKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1d44885-0b16-4574-887b-813d75b7b888" name="Default Changelist" comment="" />
+      <created>1557759785260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557759785260</updated>
+      <workItem from="1557936829371" duration="9349000" />
+      <workItem from="1558160189651" duration="59000" />
+      <workItem from="1558368899733" duration="7921000" />
+      <workItem from="1561463292161" duration="395000" />
+      <workItem from="1564161463990" duration="4536000" />
+      <workItem from="1564172785724" duration="2791000" />
+      <workItem from="1564246623953" duration="2261000" />
+      <workItem from="1564432642838" duration="437000" />
+      <workItem from="1564433233971" duration="72000" />
+      <workItem from="1564483446942" duration="1800000" />
+      <workItem from="1564519517470" duration="989000" />
+      <workItem from="1564528034437" duration="950000" />
+      <workItem from="1564605962899" duration="877000" />
+      <workItem from="1564619681938" duration="1285000" />
+      <workItem from="1564693179826" duration="6000" />
+      <workItem from="1564693493302" duration="545000" />
+      <workItem from="1564694063292" duration="404000" />
+      <workItem from="1564696269773" duration="287000" />
+      <workItem from="1564699933489" duration="274000" />
+      <workItem from="1564863523640" duration="59000" />
+      <workItem from="1564953064779" duration="119000" />
+      <workItem from="1565009471343" duration="1663000" />
+      <workItem from="1565012035565" duration="744000" />
+      <workItem from="1565013818991" duration="653000" />
+      <workItem from="1565038386478" duration="1189000" />
+      <workItem from="1565788632238" duration="520000" />
+      <workItem from="1566078877403" duration="161000" />
+      <workItem from="1567891215229" duration="113000" />
+      <workItem from="1567891354009" duration="322000" />
+      <workItem from="1570019595815" duration="1323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

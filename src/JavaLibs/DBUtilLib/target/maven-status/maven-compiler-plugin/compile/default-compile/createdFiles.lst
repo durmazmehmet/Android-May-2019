@@ -1,0 +1,3 @@
+org/csystem/util/db/repository/ICrudRepository.class
+org/csystem/util/db/repository/RepositoryException.class
+org/csystem/util/db/service/ServiceException.class

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Son Eğitim Durumu" />
+
+        <RadioGroup
+            android:id="@+id/mainActivityRadioGroupEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/mainActivityRadioButtonPhD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doktora" />
+
+            <RadioButton
+                android:id="@+id/mainActivityRadioButtonMsC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüksek Lisans"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/mainActivityRadioButtonGraduate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lisans" />
+
+            <RadioButton
+                android:id="@+id/mainActivityRadioButtonSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lise" />
+
+            <RadioButton
+                android:id="@+id/mainActivityRadioButtonOther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diğer" />
+            <EditText
+                android:id="@+id/mainActivityEditTextOtherEducation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:hint="Eğitim durumunuzu giriniz"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/mainActivityRadioGroupMaritalStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medeni Durum" />
+
+        <RadioButton
+            android:id="@+id/mainActivityRadioButtonMarried"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Evli"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/mainActivityRadioButtonSingle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bekar" />
+
+        <RadioButton
+            android:id="@+id/mainActivityRadioButtonDivorced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boşanmış" />
+    </RadioGroup>
+
+    <Button
+        android:onClick="onOKButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/mainActivityTextViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

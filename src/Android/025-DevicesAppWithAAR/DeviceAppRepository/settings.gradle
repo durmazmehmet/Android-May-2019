@@ -1,0 +1,2 @@
+include ':app', ':org-csystem-samples-deviceapp-repository'
+rootProject.name='DeviceAppRepository'

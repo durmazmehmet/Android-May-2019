@@ -1,0 +1,2 @@
+include ':app', ':org-csystem-samples-deviceinfocommon'
+rootProject.name='DeviceAppCommonLib'

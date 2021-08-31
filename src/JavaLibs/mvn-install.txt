@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=./libs/org-csystem-util-2.0-RELEASE.jar

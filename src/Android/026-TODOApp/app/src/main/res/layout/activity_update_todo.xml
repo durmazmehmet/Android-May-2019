@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateTodoActivity">
+
+    <Spinner
+        android:id="@+id/updateTodoActivtySpinnerPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/updateTodoActivtyEditTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Başlığı giriniz" />
+
+    <EditText
+        android:id="@+id/updateTodoActivtyEditTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Açıklama giriniz" />
+
+    <Switch
+        android:id="@+id/updateTodoActivtySwitchCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tamamlandı" />
+
+    <Button
+        android:onClick="onSaveButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet" />
+
+    <Button
+        android:onClick="onDeleteButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sil" />
+
+</LinearLayout>

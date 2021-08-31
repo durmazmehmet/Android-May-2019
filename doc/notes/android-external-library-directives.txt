@@ -1,0 +1,35 @@
+//1. Tüm app/libs altında bulunan .aar uzantılı dosyalar ve .jar uzantılı dosyalar için app/build.gradle dosyasına yazılması gereken direktifler
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.aar'])
+    //...
+}
+
+//2. Herhangi bir .aar dosyası için direktif.  Burada .aar dosyasının nerede olduğu <proje adı>/build.gradle dosyasında repositories direktifi içerisinde flatDir direktifi ile verilmelidir
+//Bu yöntem birbirine bağımlı aar dosyaları için zorunludur. Bir önceki yöntemle bu bağımlılık yapılamaz. Bu şekilde istenirse jar dosyaları da kullanılabilir
+
+dependencies {
+    implementation(name:'daoutil-debug', ext:'aar')//Modülün gradle dosyasına eklenecek
+    implementation(name:'org-csystem-util-datetime', ext:'jar')//Modülün gradle dosyasına eklenecek
+    //...
+}
+
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        flatDir {//Projenin gradle dosyasında yazılacak             
+            dirs 'libs'
+        }
+    }
+}
+
+
+Anahtar Notlar: 
+1. yöntemde üretilen kütüphaneler içerisine .jar dosyası da dahil edilir. Yani üretilen kütüphaneyi kullanan
+uygulamanın ayrıca jar dosyasını taşıması gerekmez. Ancak aar dosyaları için bu yöntem çalışmaz.
+
+2. yöntemde .jar veya .aar dosyaları doğrudan isimleriyle verildiğinden .aar dosyasıyla birlikte bağımlı olduğu .jar ve/veya
+.aar dosyaları da taşınmalıdır.

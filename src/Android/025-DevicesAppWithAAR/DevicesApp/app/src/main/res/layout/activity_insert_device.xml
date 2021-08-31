@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertDeviceActivity">
+
+
+    <EditText
+        android:id="@+id/insertDeviceActivityEditTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cihaz adı" />
+
+    <EditText
+        android:id="@+id/insertDeviceActivityEditTextHost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cihaz IP numarası" />
+
+    <EditText
+        android:id="@+id/insertDeviceActivityEditTextPorts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Port numaraları (p1,p2,p2,...)" />
+    <Switch
+        android:id="@+id/insertDeviceActivitySwitchActive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aktif" />
+
+    <Button
+        android:onClick="onSaveButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet" />
+
+    <Button
+        android:onClick="onClearButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temizle" />
+
+    <Button
+        android:onClick="onExitButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Çıkış" />
+</LinearLayout>

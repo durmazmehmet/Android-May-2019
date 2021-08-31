@@ -1,0 +1,2 @@
+include ':app', ':org-csystem-android-application', ':org-csystem-android-activity'
+rootProject.name='AndroidLibs'

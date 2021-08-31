@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <import type="org.csystem.samples.todoapp.Priority" />
+        <import type="org.csystem.samples.todoapp.converter.PriorityConverter" />
+        <variable name="todoInfo" type="org.csystem.samples.todoapp.entity.TodoInfo" />
+    </data>
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".InsertTodoActivity">
+
+        <Spinner
+            android:id="@+id/insertTodoActivtySpinnerPriority"
+            android:layout_width="match_parent"
+            android:selectedItemPosition="@={PriorityConverter.toInt(todoInfo.priority)}"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Başlığı giriniz"
+            android:text="@={todoInfo.title}"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Açıklama giriniz"
+            android:text="@={todoInfo.description}"/>
+
+        <Button
+            android:onClick="onSaveButtonClicked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KAYDET" />
+
+        <Button
+            android:onClick="onCancelButtonClicked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İPTAL" />
+    </LinearLayout>
+</layout>

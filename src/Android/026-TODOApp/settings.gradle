@@ -1,0 +1,2 @@
+include ':app', ':org-csystem-samples-todoapp-commonlib', ':org-csystem-samples-todoapp-repository', ':org-csystem-samples-todoapp-service'
+rootProject.name='025-TODOApp'
